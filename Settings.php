@@ -1,8 +1,8 @@
 <?php
 namespace Dfe\BackendLoginAutocomplete;
 class Settings extends \Df\Core\Settings {
-	/** @return string */
-	public function enable() {return $this->v('autocomplete');}
+	/** @return bool */
+	public function enable() {return $this->b('autocomplete');}
 
 	/**
 	 * @override
