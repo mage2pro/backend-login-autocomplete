@@ -48,7 +48,7 @@
                     id='autocomplete'
                     translate='label'
                     type='select'
-                    sortOrder='1'
+                    sortOrder='2'
                     showInDefault='1'
                     showInWebsite='0'
                     showInStore='0'
