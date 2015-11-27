@@ -9,7 +9,7 @@ class Settings extends \Df\Core\Settings {
 	 * @used-by \Df\Core\Settings::v()
 	 * @return string
 	 */
-	protected function prefix() {return 'dfe_backend/login/';}
+	protected function prefix() {return 'df_backend/login/';}
 
 	/** @return \Dfe\BackendLoginAutocomplete\Settings */
 	public static function s() {static $r; return $r ? $r : $r = df_o(__CLASS__);}

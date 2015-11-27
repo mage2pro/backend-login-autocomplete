@@ -4,10 +4,10 @@
     xsi:noNamespaceSchemaLocation='urn:magento:module:Magento_Store:etc/config.xsd'
 >
     <default>
-        <dfe_backend>
+        <df_backend>
             <login>
                 <autocomplete>1</autocomplete>
             </login>
-        </dfe_backend>
+        </df_backend>
     </default>
 </config>
