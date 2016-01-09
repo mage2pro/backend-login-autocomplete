@@ -1,6 +1,6 @@
 {
 	"name": "dfe/backend-login-autocomplete"
-	,"description": "«Backend Login Autocomplete» extension"
+	,"description": "The «Backend Login Autocomplete» extension."
 	,"type": "magento2-module"
 	,"homepage": "https://mage2.pro/t/124"
 	,"license": "proprietary"
