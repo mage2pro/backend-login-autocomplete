@@ -38,7 +38,7 @@
                 <field
                     id='autocomplete'
                     translate='label'
-                    type='Df\Framework\Data\Form\Element\Checkbox'
+                    type='Df\Framework\Form\Element\Checkbox'
                     sortOrder='2'
                     showInDefault='1'
                     showInWebsite='0'
