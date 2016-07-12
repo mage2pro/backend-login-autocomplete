@@ -1,5 +1,6 @@
 <?php
 namespace Dfe\BackendLoginAutocomplete;
+/** @method static Settings s() */
 class Settings extends \Df\Core\Settings {
 	/** @return bool */
 	public function enable() {return $this->b('autocomplete');}
@@ -10,7 +11,4 @@ class Settings extends \Df\Core\Settings {
 	 * @return string
 	 */
 	protected function prefix() {return 'df_backend/login/';}
-
-	/** @return self */
-	public static function s() {static $r; return $r ? $r : $r = df_o(__CLASS__);}
 }
