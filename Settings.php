@@ -2,7 +2,7 @@
 namespace Dfe\BackendLoginAutocomplete;
 use Magento\Framework\App\ScopeInterface as S;
 /** @method static Settings s() */
-class Settings extends \Df\Core\Settings {
+final class Settings extends \Df\Core\Settings {
 	/**
 	 * @override
 	 * @see \Df\Core\Settings::enable()
