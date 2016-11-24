@@ -2,10 +2,10 @@
 namespace Dfe\BackendLoginAutocomplete;
 use Magento\Framework\App\ScopeInterface as S;
 /** @method static Settings s() */
-final class Settings extends \Df\Core\Settings {
+final class Settings extends \Df\Config\Settings {
 	/**
 	 * @override
-	 * @see \Df\Core\Settings::enable()
+	 * @see \Df\Config\Settings::enable()
 	 * @param null|string|int|S $s [optional]
 	 * @return bool
 	 */
@@ -13,9 +13,9 @@ final class Settings extends \Df\Core\Settings {
 
 	/**
 	 * @override
-	 * @see \Df\Core\Settings::prefix()
-	 * @used-by \Df\Core\Settings::v()
+	 * @see \Df\Config\Settings::prefix()
+	 * @used-by \Df\Config\Settings::v()
 	 * @return string
 	 */
-	protected function prefix() {return 'df_backend/login/';}
+	protected function prefix() {return 'df_backend/login';}
 }
