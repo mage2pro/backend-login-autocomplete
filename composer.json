@@ -1,7 +1,7 @@
 {
 	"name": "mage2pro/backend-login-autocomplete"
 	,"version": "1.0.4"
-	,"description": "The «Backend Login Autocomplete» extension."
+	,"description": "The «Backend Login Autocomplete» extension for Magento 2."
 	,"type": "magento2-module"
 	,"homepage": "https://mage2.pro/t/124"
 	,"license": "proprietary"
