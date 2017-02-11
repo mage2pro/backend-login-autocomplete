@@ -9,7 +9,7 @@ final class Settings extends \Df\Config\Settings {
 	 * @param null|string|int|S $s [optional]
 	 * @return bool
 	 */
-	public function enable($s = null) {return $this->b('autocomplete', $s);}
+	function enable($s = null) {return $this->b('autocomplete', $s);}
 
 	/**
 	 * @override
