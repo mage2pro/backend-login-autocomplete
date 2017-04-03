@@ -16,11 +16,16 @@ It adds an option to enable or disable autocomplete for the backend login form:
 ![](https://mage2.pro/uploads/default/original/1X/821d029ce8276012d9ef38b17070e33815135cbc.png)
 
 ## Video
-
 https://www.youtube.com/watch?v=LRYGj0Q5rag
 
-## Installation 
-Follow the generic [installation instruction](https://mage2.pro/t/263). 
+## How to install
+```
+composer require mage2pro/backend-login-autocomplete:*
+bin/magento setup:upgrade
+rm -rf pub/static/* && bin/magento setup:static-content:deploy
+rm -rf var/di var/generation && bin/magento setup:di:compile
+```
+If you have some problems while executing these commands, then check the [detailed instruction](https://mage2.pro/t/263).
 
 ## Support
 - [The extension's **forum** branch](https://mage2.pro/t/124).
