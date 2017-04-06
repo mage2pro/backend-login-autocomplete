@@ -22,7 +22,7 @@ https://www.youtube.com/watch?v=LRYGj0Q5rag
 ```
 composer require mage2pro/backend-login-autocomplete:*
 bin/magento setup:upgrade
-rm -rf pub/static/* && bin/magento setup:static-content:deploy
+rm -rf pub/static/* && bin/magento setup:static-content:deploy <locale, e.g.: en_GB>
 rm -rf var/di var/generation && bin/magento setup:di:compile
 ```
 If you have some problems while executing these commands, then check the [detailed instruction](https://mage2.pro/t/263).
