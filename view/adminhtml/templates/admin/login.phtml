@@ -6,12 +6,12 @@
 <form method="post" action="" id="login-form" data-mage-init='{"form": {}, "validation": {}}' autocomplete="off">
     <fieldset class="admin__fieldset">
         <legend class="admin__legend">
-            <span><?php /* @escapeNotVerified */ echo __('Welcome, please sign in') ?></span>
+            <span><?= __('Welcome, please sign in') ?></span>
         </legend><br/>
-        <input name="form_key" type="hidden" value="<?php /* @escapeNotVerified */ echo $block->getFormKey() ?>" />
+        <input name="form_key" type="hidden" value="<?= $block->getFormKey() ?>" />
         <div class="admin__field _required field-username">
             <label for="username" class="admin__field-label">
-                <span><?php /* @escapeNotVerified */ echo __('Username') ?></span>
+                <span><?= __('Username') ?></span>
             </label>
             <div class="admin__field-control">
                 <input id="username"
@@ -21,14 +21,14 @@
                        autofocus
                        value=""
                        data-validate="{required:true}"
-                       placeholder="<?php /* @escapeNotVerified */ echo __('user name') ?>"
-					   autocomplete="<?php echo ($enableAutocompete ? "username" : "off"); ?>"
+                       placeholder="<?= __('user name') ?>"
+					   autocomplete="<?= ($enableAutocompete ? "username" : "off"); ?>"
                     />
             </div>
         </div>
         <div class="admin__field _required field-password">
             <label for="login" class="admin__field-label">
-                <span><?php /* @escapeNotVerified */ echo __('Password') ?></span>
+                <span><?= __('Password') ?></span>
             </label>
             <div class="admin__field-control">
                 <input id="login"
@@ -37,14 +37,14 @@
                        name="login[password]"
                        data-validate="{required:true}"
                        value=""
-                       placeholder="<?php /* @escapeNotVerified */ echo __('password') ?>"
-					   autocomplete="<?php echo ($enableAutocompete ? "current-password" : "off"); ?>"
+                       placeholder="<?= __('password') ?>"
+					   autocomplete="<?= ($enableAutocompete ? "current-password" : "off"); ?>"
                     />
             </div>
         </div>
-        <?php echo $block->getChildHtml('form.additional.info'); ?>
+        <?= $block->getChildHtml('form.additional.info'); ?>
         <div class="form-actions">
-            <?php echo $block->getChildHtml('form.buttons'); ?>
+            <?= $block->getChildHtml('form.buttons'); ?>
         </div>
     </fieldset>
 </form>
