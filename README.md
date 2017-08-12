@@ -1,12 +1,12 @@
 The «[**Backend Login Autocomplete**](https://mage2.pro/t/124)» extension for Magento 2 makes the standard Magento 2 backend login form more useful in modern browsers (like Google Chrome).
 
-The default Magento 2 backend login form behaviour in Google Chrome is very odd and is shown below:
+The default Magento 2 backend login form behavior in Google Chrome is very odd and is shown below:
 
 ![](https://mage2.pro/uploads/default/original/1X/e88546cad209a8f0d0074aa9ed2da0de96ab1de1.png)
 
-As you can see, the behaviour is inconsistent: the «**Username**» field is not autocompleted, but the «**Password**» field is autocompleted (sometimes with a wrong value).
+As you can see, the behavior is inconsistent: the «**Username**» field is not autocompleted, but the «**Password**» field is autocompleted (sometimes with a wrong value).
 
-The «**Backend Login Autocomplete**» extension makes the backend login form behaviour more consistent and configurable.
+The «**Backend Login Autocomplete**» extension makes the backend login form behavior more consistent and configurable.
 It adds an option to enable or disable autocomplete for the backend login form:
 
 ![](https://mage2.pro/uploads/default/original/1X/525b2a36af6b0cbfaee4a6f6f3c6b2a346574538.png)
