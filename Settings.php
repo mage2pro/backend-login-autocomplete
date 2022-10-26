@@ -7,15 +7,13 @@ final class Settings extends \Df\Config\Settings {
 	 * @override
 	 * @see \Df\Config\Settings::enable()
 	 * @param null|string|int|S $s [optional]
-	 * @return bool
 	 */
-	function enable($s = null) {return $this->b('autocomplete', $s);}
+	function enable($s = null):bool {return $this->b('autocomplete', $s);}
 
 	/**
 	 * @override
 	 * @see \Df\Config\Settings::prefix()
 	 * @used-by \Df\Config\Settings::v()
-	 * @return string
 	 */
-	protected function prefix() {return 'df_backend/login';}
+	protected function prefix():string {return 'df_backend/login';}
 }
