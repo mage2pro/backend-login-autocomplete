@@ -20,7 +20,7 @@ It adds an option to enable or disable autocomplete for the backend login form:
 https://www.youtube.com/watch?v=LRYGj0Q5rag
 
 ## How to install
-[Hire me in Upwork](https://www.upwork.com/fl/mage2pro), and I will: 
+[Hire me in Upwork](https://upwork.com/fl/mage2pro), and I will: 
 - install and configure the module properly on your website
 - answer your questions
 - solve compatiblity problems with third-party checkout, shipping, marketing modules
